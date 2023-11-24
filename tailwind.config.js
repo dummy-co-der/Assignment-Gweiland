@@ -1,18 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+  content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
+    fontFamily: {
+      sans: ["Made Tommy Soft Regular", "sans-serif"],
+      qualy: ["Qualy", "sans-serif"],
+    },
     extend: {
+      colors: {
+        E1C300: "#E1C300",
+        navBlack: "#212122",
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        banner1: "url('/banner_1.png')",
+        banner2: "url('/banner_2.png')",
+        banner3: "url('/banner_3.png')",
+        banner4: "url('/banner_4.png')",
       },
     },
   },
   plugins: [],
-}
+};
