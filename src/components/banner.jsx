@@ -6,8 +6,8 @@ const Banner = () => {
     <div className="bg-banner1 bg-cover bg-center bg-no-repeat h-[85vh] flex items-center">
       <div className="flex flex-col items-start lg:gap-y-10 md:gap-y-8 gap-y-6 pl-10">
         <h1 className="lg:text-7xl md:text-5xl text-3xl font-extrabold text-white font-sans">
-          premium <br />
-          tees
+          heritage <br />
+          hoodies
         </h1>
         <Button
           variant="contained"

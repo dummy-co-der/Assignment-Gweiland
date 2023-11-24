@@ -59,7 +59,7 @@ const ItemCard = () => {
                 alt={item.title}
               />
               <div className="flex flex-col p-2 gap-y-4 text-white items-end">
-                <h4 className="font-bold text-lg font-qualy">{item.title}</h4>
+                <h4 className="font-bold text-lg font-sans">{item.title}</h4>
                 <Typography className="underline cursor-pointer">
                   shop now
                 </Typography>

@@ -3,8 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
   theme: {
     fontFamily: {
-      sans: ["Made Tommy Soft Regular", "sans-serif"],
-      qualy: ["Qualy", "sans-serif"],
+      sans: ["sans-serif"],
     },
     extend: {
       colors: {
